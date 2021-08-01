@@ -1,5 +1,7 @@
 package prototype;
 
+import java.util.Objects;
+
 public class Vehicle implements IClone {
 
     public int numberOfWheels;
@@ -27,5 +29,13 @@ public class Vehicle implements IClone {
     @Override
     public IClone doClone() {
         return new Vehicle(this);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Vehicle vehicle = (Vehicle) o;
+        return numberOfWheels == vehicle.numberOfWheels && maxSpeed == vehicle.maxSpeed;
     }
 }

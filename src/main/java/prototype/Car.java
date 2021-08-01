@@ -29,9 +29,4 @@ public class Car extends Vehicle {
         Car car = (Car) o;
         return maxSpeed == car.maxSpeed && numberOfWheels == car.numberOfWheels && engineType == car.engineType;
     }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(engineType);
-    }
 }
