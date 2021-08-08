@@ -2,10 +2,6 @@ package creational.prototype;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import prototype.Bicycle;
-import prototype.Car;
-import prototype.EngineType;
-import prototype.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;
