@@ -1,6 +1,4 @@
-package prototype;
-
-import java.util.Objects;
+package creational.prototype;
 
 public class Car extends Vehicle {
     public EngineType engineType;

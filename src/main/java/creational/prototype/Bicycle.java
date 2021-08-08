@@ -1,6 +1,4 @@
-package prototype;
-
-import java.util.Objects;
+package creational.prototype;
 
 public class Bicycle extends Vehicle {
     public int numberOfPedals;
