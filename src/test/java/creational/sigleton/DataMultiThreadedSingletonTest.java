@@ -2,7 +2,6 @@ package creational.sigleton;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import processor.Custom;
 
 import java.util.ArrayList;
 import java.util.List;
